@@ -5,6 +5,7 @@
     android:padding="16dp">
 
     <EditText
+        android:id="@+id/edit_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="NOME"
@@ -19,6 +20,7 @@
         android:id="@+id/edit_cargo" />
 
     <EditText
+        android:id="@+id/edit_salario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="SALARIO"
@@ -32,6 +34,7 @@
         android:layout_alignParentBottom="true">
 
         <Button
+            android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
